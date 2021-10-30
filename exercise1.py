@@ -18,6 +18,16 @@ c = 2
 solutions = ()
 
 # DO NOT CHANGE ANYTHING ABOVE THIS LINE!!!
+if a == 0:
+    xx =((-c)/b,)
+else:
+   delta = b**2 - 4*a*c
+   if delta == 0:
+       xx = (-b/(2*a),)
+   elif delta > 0:
+      x1 = (-b+delta**(1/2))/(2*a)
+      x2 = (-b-delta**(1/2))/(2*a)
+      xx = (x2,x1,)
 
 
 # Put your here...
